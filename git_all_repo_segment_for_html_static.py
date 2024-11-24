@@ -16,6 +16,9 @@ def get_repos(username):
     return repos
 
 def generate_html(repos):
+    # Sort repositories by language
+    repos.sort(key=lambda repo: repo['language'] or "Unknown")
+
     html = ""
     for repo in repos:
         repo_name = repo['name']
@@ -35,8 +38,7 @@ def generate_html(repos):
             <span data-view-component="true" class="position-relative"><a id="{repo['id']}" href="{repo_url}" data-view-component="true" class="min-width-0 Link text-bold flex-auto wb-break-all">
               <span class="repo">
                 {repo_name}
-              </span>
-</a><tool-tip id="tooltip-{repo['id']}" for="{repo['id']}" popover="manual" data-direction="s" data-type="description" data-view-component="true" class="sr-only position-absolute">{repo_name}</tool-tip></span>
+              </span></a><tool-tip id="tooltip-{repo['id']}" for="{repo['id']}" popover="manual" data-direction="s" data-type="description" data-view-component="true" class="sr-only position-absolute">{repo_name}</tool-tip></span>
             <span class="flex-auto text-right">
               <span></span><span class="Label Label--secondary v-align-middle">Public</span>
             </span>
