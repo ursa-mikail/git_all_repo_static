@@ -1,4 +1,5 @@
 import requests
+import datetime
 
 def get_repos(username):
     repos = []
@@ -19,7 +20,20 @@ def generate_html(repos):
     # Sort repositories by language
     repos.sort(key=lambda repo: repo['language'] or "Unknown")
 
-    html = ""
+    # Get the current timestamp
+    timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H%M_%S")
+    
+    # Get the total number of repositories
+    total_repos = len(repos)
+
+    # Initialize the HTML with the timestamp and total repos count
+    html = f"""
+    <pre>
+    Total Repositories: {total_repos}
+    Generated on: {timestamp}
+    </pre>
+    <br>
+"""
     for repo in repos:
         repo_name = repo['name']
         repo_url = repo['html_url']
@@ -78,3 +92,6 @@ if __name__ == "__main__":
     repos = get_repos(username)
     html_output = generate_html(repos)
     print(html_output)
+
+
+
