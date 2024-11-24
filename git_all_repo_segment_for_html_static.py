@@ -1,12 +1,19 @@
 import requests
 
 def get_repos(username):
-    url = f"https://api.github.com/users/{username}/repos"
-    response = requests.get(url)
-    if response.status_code == 200:
-        return response.json()
-    else:
-        raise Exception(f"Error fetching repositories: {response.status_code}")
+    repos = []
+    page = 1
+    while True:
+        url = f"https://api.github.com/users/{username}/repos?page={page}&per_page=100"
+        response = requests.get(url)
+        if response.status_code != 200:
+            raise Exception(f"Error fetching repositories: {response.status_code}")
+        page_repos = response.json()
+        if not page_repos:
+            break
+        repos.extend(page_repos)
+        page += 1
+    return repos
 
 def generate_html(repos):
     html = ""
@@ -26,11 +33,12 @@ def generate_html(repos):
         <div class="pinned-item-list-item-content">
           <div class="d-flex v-align-middle mr-2">
             <span data-view-component="true" class="position-relative"><a id="{repo['id']}" href="{repo_url}" data-view-component="true" class="min-width-0 Link text-bold flex-auto wb-break-all">
-              <span class="repo" >
+              <span class="repo">
                 {repo_name}
               </span>
-</a><tool-tip id="tooltip-{repo['id']}" for="{repo['id']}" popover="manual" data-direction="s" data-type="description" data-view-component="true" class="sr-only position-absolute">{repo_name}</tool-tip></span>            <span class="flex-auto text-right">
-              <span></span><span class="Label Label--secondary v-align-middle ">Public</span>
+</a><tool-tip id="tooltip-{repo['id']}" for="{repo['id']}" popover="manual" data-direction="s" data-type="description" data-view-component="true" class="sr-only position-absolute">{repo_name}</tool-tip></span>
+            <span class="flex-auto text-right">
+              <span></span><span class="Label Label--secondary v-align-middle">Public</span>
             </span>
           </div>
 
@@ -52,9 +60,6 @@ def generate_html(repos):
     return html
 
 def get_language_color(language):
-    # This function returns a color based on the language
-    # For simplicity, a hard-coded mapping is used
-    # You can expand it as needed or fetch from a reliable source
     colors = {
         "Python": "#3572A5",
         "JavaScript": "#f1e05a",
@@ -71,4 +76,3 @@ if __name__ == "__main__":
     repos = get_repos(username)
     html_output = generate_html(repos)
     print(html_output)
-
