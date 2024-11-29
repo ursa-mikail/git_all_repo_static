@@ -22,3 +22,10 @@ description: Suggest an idea for this site 🟪🟦🟩🟧🟨🟥🟫
 title: "Feature: "
 labels: 👀 
 ---
+
+---
+name: 🚀 Feature request
+about: Suggest an idea for this project 🌈
+title: "Feature: "
+labels: 👀 needs triage, 🌈 feature
+---
