@@ -1,3 +1,10 @@
+---
+name: Feature request 🆕
+description: Suggest an idea for this site 🟪🟦🟩🟧🟨🟥🟫
+title: "Feature: "
+labels: 👀 
+---
+
 # GitHub Repositories to HTML
 
 <a href="https://ursa-mikail.github.io/git_all_repo_static/"> Git All Repo </a>
@@ -16,16 +23,5 @@ The output is to be emended to segment between:
 
 ```
 
----
-name: Feature request 🆕
-description: Suggest an idea for this site 🟪🟦🟩🟧🟨🟥🟫
-title: "Feature: "
-labels: 👀 
----
 
----
-name: 🚀 Feature request
-about: Suggest an idea for this project 🌈
-title: "Feature: "
-labels: 👀 needs triage, 🌈 feature
----
+
