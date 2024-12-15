@@ -26,6 +26,8 @@ def generate_html(repos):
     # Get the total number of repositories
     total_repos = len(repos)
 
+    line_end_track_estimate = (len(repos) * 32) + 302  # lines per section, start at l.300
+
     # Initialize the HTML with the timestamp and total repos count
     html = f"""
     <pre>
@@ -33,6 +35,15 @@ def generate_html(repos):
     Generated on: {timestamp}
     </pre>
     <br>
+
+    <ol class="d-flex flex-wrap list-style-none gutter-condensed mb-4">
+
+<!-- End: at line {line_end_track_estimate} -->
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!-------------------------------- [START] -------------------------------->
+
+
 """
     for repo in repos:
         repo_name = repo['name']
@@ -92,6 +103,4 @@ if __name__ == "__main__":
     repos = get_repos(username)
     html_output = generate_html(repos)
     print(html_output)
-
-
 
