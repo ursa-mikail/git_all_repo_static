@@ -98,9 +98,37 @@ def get_language_color(language):
     }
     return colors.get(language, "#cccccc")
 
+import requests
+
 if __name__ == "__main__":
     username = "ursa-mikail"  # Replace with the GitHub username
     repos = get_repos(username)
     html_output = generate_html(repos)
-    print(html_output)
+    # print(html_output)
 
+    files_path = 'https://raw.githubusercontent.com/ursa-mikail/git_all_repo_static/refs/heads/main/'
+
+    # Write to part_mid.txt
+    with open("part_mid.txt", "w", encoding="utf-8") as f:
+        f.write(html_output) 
+
+
+    # Merge all parts into index.html
+    with open("index.html", "w", encoding="utf-8") as index_file:
+        # Fetch and write remote part_top.txt
+        response = requests.get(files_path + "part_top.txt")
+        if response.status_code == 200:
+            index_file.write(response.text)
+        else:
+            raise Exception(f"Failed to fetch part_top.txt: {response.status_code}")
+
+        # Write local part_mid.txt
+        with open("part_mid.txt", "r", encoding="utf-8") as part_file:
+            index_file.write(part_file.read())
+
+        # Fetch and write remote part_bottom.txt
+        response = requests.get(files_path + "part_bottom.txt")
+        if response.status_code == 200:
+            index_file.write(response.text)
+        else:
+            raise Exception(f"Failed to fetch part_bottom.txt: {response.status_code}")

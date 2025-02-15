@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  
+  data-color-mode="auto" data-light-theme="light" data-dark-theme="dark"
+  data-a11y-animated-images="system" data-a11y-link-underlines="true"
+  >
+
+  <head>
+    <meta charset="utf-8">
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/light-3e154969b9f9.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/dark-9c5b7a476542.css" />
+  <link data-color-theme="dark_dimmed" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_dimmed-afda8eb0fb33.css" /><link data-color-theme="dark_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_high_contrast-2494e44ccdc5.css" /><link data-color-theme="dark_colorblind" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_colorblind-56fff47acadc.css" /><link data-color-theme="light_colorblind" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_colorblind-71cd4cc132ec.css" /><link data-color-theme="light_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_high_contrast-fd5499848985.css" />
+  
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-primitives-4cf0d59ab51a.css" />
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-0a1f715ee9fb.css" />
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/global-e41ff91f8baa.css" />
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/github-d3b66f11d613.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/profile-a657309cdf66.css" />
+
+
+  <title>ursa-mikail</title>
+
+  </head>
+
+  <body class="logged-in env-production page-responsive page-profile mine" style="word-wrap: break-word;">
+    <div data-turbo-body class="logged-in env-production page-responsive page-profile mine" style="word-wrap: break-word;">
+      
+    <div class="position-relative header-wrapper js-header-wrapper ">
+      <a href="#start-of-content" data-skip-target-assigned="false" class="p-3 color-bg-accent-emphasis color-fg-on-emphasis show-on-focus js-skip-to-content">Skip to content</a>
+
+      <span data-view-component="true" class="progress-pjax-loader Progress position-fixed width-full">
+    <span style="width: 0%;" data-view-component="true" class="Progress-item progress-pjax-loader-bar left-0 top-0 color-bg-accent-emphasis"></span>
+</span>      
+      
+
+<header class="AppHeader" role="banner">
+  <h2 class="sr-only">Navigation Menu</h2>
+
+    <div class="AppHeader-globalBar pb-2 js-global-bar">
+      <div class="AppHeader-globalBar-start">
+
+          <svg height="32" aria-hidden="true" viewBox="0 0 24 24" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github v-align-middle color-fg-default">
+    <path d="M12.5.75C6.146.75 1 5.896 1 12.25c0 5.089 3.292 9.387 7.863 10.91.575.101.79-.244.79-.546 0-.273-.014-1.178-.014-2.142-2.889.532-3.636-.704-3.866-1.35-.13-.331-.69-1.352-1.18-1.625-.402-.216-.977-.748-.014-.762.906-.014 1.553.834 1.769 1.179 1.035 1.74 2.688 1.25 3.349.948.1-.747.402-1.25.733-1.538-2.559-.287-5.232-1.279-5.232-5.678 0-1.25.445-2.285 1.178-3.09-.115-.288-.517-1.467.115-3.048 0 0 .963-.302 3.163 1.179.92-.259 1.897-.388 2.875-.388.977 0 1.955.13 2.875.388 2.2-1.495 3.162-1.179 3.162-1.179.633 1.581.23 2.76.115 3.048.733.805 1.179 1.825 1.179 3.09 0 4.413-2.688 5.39-5.247 5.678.417.36.776 1.05.776 2.128 0 1.538-.014 2.774-.014 3.162 0 .302.216.662.79.547C20.709 21.637 24 17.324 24 12.25 24 5.896 18.854.75 12.5.75Z"></path>
+</svg>
+        </a>
+
+          <div class="AppHeader-context" >
+  <div class="AppHeader-context-compact">
+        <a
+          class="AppHeader-context-compact-trigger no-underline"
+          href="/ursa-mikail"
+          aria-current="page"
+          data-analytics-event="{&quot;category&quot;:&quot;SiteHeaderComponent&quot;,&quot;action&quot;:&quot;compact_context_region_dialog_button&quot;,&quot;label&quot;:&quot;ursa-mikail&quot;}"
+        >
+          <strong class="AppHeader-context-compact-mainItem d-flex flex-items-center Truncate" >
+  <span class="Truncate-text ">ursa-mikail</span>
+
+</strong>
+
+        </a>
+  </div>
+
+  <div class="AppHeader-context-full">
+    <nav role="navigation" aria-label="Page context">
+      <ul role="list" class="list-style-none" >
+    <li>
+      <a data-analytics-event="{&quot;category&quot;:&quot;SiteHeaderComponent&quot;,&quot;action&quot;:&quot;context_region_crumb&quot;,&quot;label&quot;:&quot;ursa-mikail&quot;,&quot;screen_size&quot;:&quot;full&quot;}" href="/ursa-mikail" aria-current="page" data-view-component="true" class="AppHeader-context-item">
+        <span class="AppHeader-context-item-label  ">
+
+          ursa-mikail
+        </span>
+
+</a>
+    </li>
+</ul>
+
+    </nav>
+  </div>
+</div>
+
+      </div>
+
+      <div class="AppHeader-globalBar-end">
+          <div class="AppHeader-search" >          
+
+  </div>
+
+      <scrollable-region data-labelled-by="custom-scopes-dialog-title">
+        <div data-view-component="true" class="Overlay-body">        <div data-target="custom-scopes.customScopesModalDialogFlash"></div>
+
+        <div hidden class="create-custom-scope-form" data-target="custom-scopes.createCustomScopeForm">
+        <!-- '"` --><!-- </textarea></xmp> --></option></form>
+        <form id="custom-scopes-dialog-form" data-turbo="false" action="/search/custom_scopes" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="p8kBHgQl6lR8SUvp6BC6zrUHJtz1mhoyPQw2s0QUFmthb7W8jS8ESz46OKFCl32ctmawcYNpqIJQ_bzFg7-7uA" />
+          <div data-target="custom-scopes.customScopesModalDialogFlash"></div>
+
+          <input type="hidden" id="custom_scope_id" name="custom_scope_id" data-target="custom-scopes.customScopesIdField">
+
+          <div class="form-group">
+            <label for="custom_scope_query">Query</label>
+            <input
+              type="text"
+              name="custom_scope_query"
+              id="custom_scope_query"
+              data-target="custom-scopes.customScopesQueryField"
+              class="form-control"
+              autocomplete="off"
+              placeholder="(repo:mona/a OR repo:mona/b) AND lang:python"
+              required
+              maxlength="500">
+          </div>
+
+          <p class="text-small color-fg-muted">
+            To see all available qualifiers, see our <a class="Link--inTextBlock" href="https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax">documentation</a>.
+          </p>
+</form>        </div>
+
+        <div data-target="custom-scopes.manageCustomScopesForm">
+          <div data-target="custom-scopes.list"></div>
+        </div>
+
+</div>
+</a>
+
+        </div>
+        <div class="AppHeader-user">
+
+    <span class="Button-label"><img src="https://avatars.githubusercontent.com/u/178732451?v=4" alt="" size="32" height="32" width="32" data-view-component="true" class="avatar circle" /></span>
+  </span>
+        </div>
+
+        <div class="position-absolute mt-2">
+            
+</li>
+
+        <li hidden="hidden" data-menu-item="i4stars-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
+    
+    <a tabindex="-1" id="item-52edb564-60e0-4b8f-946d-2a87e4a7ff1f" href="/ursa-mikail?tab=stars" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+        <span class="ActionListItem-visual ActionListItem-visual--leading">
+          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star">
+    <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"></path>
+</svg>
+        </span>
+      
+</a>
+  
+</li>
+</ul>    
+</div></action-list>
+
+
+</div>
+      
+</div></anchored-position>  </focus-group>
+</action-menu></div>
+</nav>
+      </div>
+</header> <!-- header [END] -->
+
+  <div
+    class="application-main "
+    data-commit-hovercards-enabled
+    data-discussion-hovercards-enabled
+    data-issue-and-pr-hovercards-enabled
+  >
+      <main>
+        
+<div class="container-xl px-3 px-md-4 px-lg-5 mt-2">
+  <div data-view-component="true" class="Layout Layout--flowRow-until-md Layout--sidebarPosition-start Layout--sidebarPosition-flowRow-start">
+  
+  <div data-view-component="true" class="Layout-sidebar">      
+    <div
+        class="h-card mt-5"
+        data-acv-badge-hovercards-enabled
+        itemscope
+        itemtype="http://schema.org/Person"
+      >
+
+          <div class="js-profile-editable-replace">
+  <div class="clearfix d-flex d-md-block flex-items-center mb-4 mb-md-0">
+    <div
+      class="position-relative d-inline-block col-2 col-md-12 mr-3 mr-md-0 flex-shrink-0"
+      style="z-index:4;"
+    >
+        <span data-view-component="true" class="position-relative"><a aria-label="Change your avatar" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:178732451,&quot;target&quot;:&quot;EDIT_AVATAR&quot;,&quot;user_id&quot;:178732451,&quot;originating_url&quot;:&quot;https://github.com/ursa-mikail&quot;}}" data-hydro-click-hmac="133f06277db835b45a494028c92579fcbe7139b67c7ac231b46aa6b599136a7b" id="upload-avatar-link" href="https://github.com/account" data-view-component="true" class="Link d-block">
+              <img style="height:auto;" alt="" src="https://avatars.githubusercontent.com/u/178732451?v=4" width="260" height="260" class="avatar avatar-user width-full border color-bg-default" />
+</a></span> 
+
+    </div>
+
+    <div
+      class="vcard-names-container float-left js-profile-editable-names col-12 py-3 js-sticky js-user-profile-sticky-fields"
+    >
+      <h1 class="vcard-names ">
+        <span class="p-name vcard-fullname d-block overflow-hidden" itemprop="name">
+          
+        </span>
+        <span class="p-nickname vcard-username d-block" itemprop="additionalName">
+          ursa-mikail
+
+        </span>
+      </h1>
+    </div>
+  </div>
+
+  <div class="d-flex flex-column">
+    <div class="flex-order-1 flex-md-order-none">
+        <div class="d-flex flex-lg-row flex-md-column">
+        </div>
+
+    </div>
+    
+<div class="js-profile-editable-area d-flex flex-column d-md-block">
+  <div class="p-note user-profile-bio mb-3 js-user-profile-bio f4" data-bio-text=""
+    hidden></div>
+
+    <div class="flex-order-1 flex-md-order-none mt-2 mt-md-0">
+      <div class="mb-3">
+        <a class="Link--secondary no-underline no-wrap" href="https://github.com/ursa-mikail?tab=followers">
+
+     <hr>  
+      </div>
+    </div>
+
+  <ul class="vcard-details">
+               
+  </ul>
+</div>
+
+  </div>
+</div>
+
+      </div>
+</div>
+  <div data-view-component="true" class="Layout-main">      <turbo-frame id="user-profile-frame" data-turbo-action="advance">
+
+        <div class="" data-hpc>
+          
+  <div class="Box mt-4 " >
+  <div class="Box-body p-4">
+    <div class="d-flex flex-justify-between">
+      <div class="text-mono text-small mb-3">
+        <a
+          href="/ursa-mikail/ursa-mikail"
+          class="no-underline Link--primary"
+        >ursa-mikail</a><span
+          class="color-fg-muted d-inline-block"
+          style="padding:0px 2px;"
+        >/</span>README<span
+         class="color-fg-muted"
+        >.md</span>
+      </div>
+
+        <div class="text-small mb-3">
+          <a href="/ursa-mikail/ursa-mikail/edit/main/README.md"
+              class="Box-btn-octicon btn-octicon pr-3"
+              aria-label="Edit this file"
+              >
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-pencil">
+    <path d="M11.013 1.427a1.75 1.75 0 0 1 2.474 0l1.086 1.086a1.75 1.75 0 0 1 0 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 0 1-.927-.928l.929-3.25c.081-.286.235-.547.445-.758l8.61-8.61Zm.176 4.823L9.75 4.81l-6.286 6.287a.253.253 0 0 0-.064.108l-.558 1.953 1.953-.558a.253.253 0 0 0 .108-.064Zm1.238-3.763a.25.25 0 0 0-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 0 0 0-.354Z"></path>
+</svg>
+          </a>
+        </div>
+    </div>
+    <article class="markdown-body entry-content container-lg f5" itemprop="text">
+
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/ursa-mikail/ursa-mikail/blob/main/images/blob.gif"><img src="/ursa-mikail/ursa-mikail/raw/main/images/blob.gif" alt="Who Am I?" data-animated-image="" style="max-width: 100%;"></a></p>
+<p dir="auto">I am an author of 12 <a href="https://mikail-eliyah.medium.com/book-list-620d73b2aef2" rel="nofollow">books</a>.
+I am a scientist. My students called me, Dr <a href="https://mikail-eliyah.medium.com/book-list-620d73b2aef2" rel="nofollow">Ursa</a>.</p>
+<p dir="auto">I write about life experiences sometimes: <a href="https://mikail-eliyah.medium.com/the-art-of-architecting-our-lives-6efcbb4fc67a" rel="nofollow"><em>Architecture Of Our Lives</em></a>.</p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://raw.githubusercontent.com/ursa-mikail/ursa-mikail/main/images/book_The_Guardian_s_Handbook.png"><img src="https://raw.githubusercontent.com/ursa-mikail/ursa-mikail/main/images/book_The_Guardian_s_Handbook.png" alt="book from a manual I wrote for my crew" style="max-width: 50%;"></a></p>
+<p dir="auto"><em><a href="https://ursa-mikail.github.io/site_announcement/" rel="nofollow">Announcements</a> for my group.</em></p>
+<p dir="auto"><a href="https://ursa-mikail.github.io/mikail-eliyah.github.io/" rel="nofollow"><img src="https://raw.githubusercontent.com/ursa-mikail/ursa-mikail/main/images/ball_black.png" width="25" title="Ursa's page" style="max-width: 100%;"></a></p>
+</article>
+  </div>
+</div>
+
+<hr>
+<hr>
+<hr>  
+
+  <h1 class="f4 mb-2 text-normal">
+      ALL Repositories
+  </h1>
+  <hr>
+
