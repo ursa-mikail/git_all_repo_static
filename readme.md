@@ -26,6 +26,7 @@ Python Colab:
 # Run the Python script
 !python3 git_all_repo_segment_for_html_static.py
 ```
+download git_all_repo_static/index.html
 
 The output is to be emended to segment between:
 ```
